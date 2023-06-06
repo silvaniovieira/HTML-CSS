@@ -1,0 +1,79 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em; 
+
+}
+body{
+    min-height: 100vh;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background: url(imagens/yamaha-01.jpg) center center no-repeat ;
+    font-size: 10vw;
+    color: #fff;
+    text-align: center;
+    min-height: 250px;
+    background-color: black;
+    padding-top: 50px;
+}
+section{
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 40px;
+    text-indent: 30px;
+    padding: 5vh;
+}
+section p{
+    padding-bottom: 2em;
+}
+section.normal{
+    color: #fff;
+ background-color:rgba(0, 0, 0, 0.911);
+}
+section.imagem{
+    
+    background-color: rgb(182, 175, 175);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem >p{
+    display: inline-block;
+    text-align: justify;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 
+    0.301);
+   margin: auto;
+   max-width: 400px;
+
+}
+section.lista{
+    color: #fff;
+ background-color:rgba(0, 0, 0, 0.911);
+ line-height: 50px;
+ font-size: 1.2em;
+}
+aside a{
+    color: #fff;
+    text-decoration: none;
+}
+aside a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+section#img01{
+    background-image: url(imagens/lander-05.jpg);
+    background-position: right center;
+    padding: 300px;
+}
+section#img02{
+    background-image: url(imagens/lander-03.jpg
+    );
+    background-position: right center;
+    padding: 300px;
+}
