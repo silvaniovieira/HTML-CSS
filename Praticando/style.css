@@ -5,75 +5,97 @@
     font-size: 1em; 
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 body{
     min-height: 100vh;
-   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header{
-    background: url(imagens/yamaha-01.jpg) center center no-repeat ;
-    font-size: 10vw;
-    color: #fff;
-    text-align: center;
-    min-height: 250px;
-    background-color: black;
-    padding-top: 50px;
+    font-family:'Patrick Hand', cursive;;
 }
 section{
-    font-size: 1.3em;
-    text-align: justify;
-    line-height: 40px;
-    text-indent: 30px;
-    padding: 5vh;
-}
-section p{
-    padding-bottom: 2em;
-}
-section.normal{
-    color: #fff;
- background-color:rgba(0, 0, 0, 0.911);
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 section.imagem{
-    
-    background-color: rgb(182, 175, 175);
-    color: white;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
     background-size: cover;
+    background-position:center center ;
+    background-position: no-repeat;
     background-attachment: fixed;
 }
 section.imagem >p{
-    display: inline-block;
-    text-align: justify;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 
-    0.301);
+   font-size: 1.2em;
+   width: 350px;
+   height: 300px;
+   background-color: rgba(0, 0, 0, 0.288);
    margin: auto;
-   max-width: 400px;
+   text-align:center;
+   text-indent: 10px;
+   color: white;
+   padding: 20px;
+   line-height: 40px;
+   border-radius: 10px;
+}
 
+section.normal{
+   background-color:rgba(0, 0, 0, 0.911);
+   color: #fff;
+   line-height: 40px;
+   text-align: justify;
 }
-section.lista{
+section.normal >h2{
+    font-size: 1.3em;
     color: #fff;
- background-color:rgba(0, 0, 0, 0.911);
- line-height: 50px;
- font-size: 1.2em;
+    text-align: center;
+    padding-top: 10px
 }
+section.normal > p{
+    padding: 10px;
+}
+section.normal >ul{
+   color: #fff;
+   padding: 30px;
+   line-height: 40px;
+   text-align: justify;
+}
+section aside{
+    text-align: center;
+    background-color:#3C6BBD;
+}
+
+
+
+
+
+
 aside a{
     color: #fff;
     text-decoration: none;
 }
 aside a:hover{
     text-decoration: underline;
-    color: blue;
+    color:#394AF4;
 }
 
 
 section#img01{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position:center right;
+    background-position: no-repeat;
+    background-attachment: fixed;
+
     background-image: url(imagens/lander-05.jpg);
-    background-position: right center;
-    padding: 300px;
-}
+  } 
+
 section#img02{
     background-image: url(imagens/lander-03.jpg
     );
-    background-position: right center;
-    padding: 300px;
+
+ 
 }
